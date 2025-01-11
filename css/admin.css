@@ -1,0 +1,162 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-left:40%;
+        } 
+
+       
+           .First {
+           /* position: absolute; Set position to absolute */
+            top: 20px; /* Adjust top position as needed */
+            right: 5px; /* Adjust right position as needed */
+            display: flex;
+          
+        }       
+        .top{
+             display: block;
+             position: relative;
+             margin-left:87%;
+             text-decoration: none;
+             font-size:15px;
+        }
+        .tops{
+           text-decoration: none; 
+           margin-top: 20px;
+           margin-right: 35px;
+        }
+
+        .second {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .table-data {
+            margin-left :10px;
+            width: 80%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .inventory {
+            
+            padding: 20px;
+            margin-left :10px;
+            margin-right :10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width:40%;
+        }
+
+        .inventory label {
+            display: block;
+            margin-bottom: 5px;          
+        }
+
+        .inventory input[type="text"],
+        .inventory input[type="number"],
+        .inventory select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .inventory input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+         .inventory input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            color: black; 
+        }
+
+        .inventory input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        .crud {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #007bff; /* Blue color for the edit button */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red color for the delete button */
+}
+
+.crud:hover {
+    opacity: 0.8;
+}
+
+.images{
+    margin: 4px;
+    padding: 6px;
+    width: 13vw;
+    height: auto;
+}
+
+.logout{
+    padding: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    margin-left: 8rem;
+    align-content: center;
+    height:10vh;
+    width: 6vw;
+}
+
+.logt{
+    padding: 5px;
+    align-content: center;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    margin-top: 30px; 
+    margin-left: 40px
+}

@@ -1,0 +1,152 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+main{
+     display: flex;
+     margin: auto;
+}
+.container {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+section {
+    padding: 10px;
+   
+}
+
+.row {
+    margin-bottom: 5px;
+    width: 50%;
+}
+.tops{
+    margin-top:10px;
+    margin-right:10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px; 
+    width: 39vw;
+}
+/* Form styles */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: grid;
+    margin-bottom: 5px;
+}
+
+
+.zvimwe{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.year{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+.altering{
+    display: inline-flex;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Cart styles */
+.cart {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.cart h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin-bottom: 5px;
+}
+
+
+
+.pic {
+    margin-right: 15px;
+    width: 5.5vw;
+}
+h2{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.qty,
+.price {
+    margin-left: 20px; 
+}
+.summary
+{
+     margin-left: 200px; 
+}
+.summary1
+{
+     margin-left: 225px; 
+}
+.summary2
+{
+     margin-left: 258px;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
