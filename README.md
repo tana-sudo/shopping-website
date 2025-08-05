@@ -13,7 +13,10 @@ A simple Java-based shopping website built with JSP and Servlets. This project a
 - File upload support for product images
 
 ## Project Structure
-
+- All `.java` files are servlets handling backend logic.
+- All `.jsp` files are frontend pages rendered to the user.
+- `css/`, `icons/`, and `pictures/` are static asset folders.
+- `META-INF/` contains deployment metadata.
 
 ## Setup & Running
 
